@@ -11,7 +11,7 @@ describe('Testeing the App component', () => {
     render(
       <MemoryRouter>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const navLinks = screen.getAllByRole('link');
@@ -42,10 +42,11 @@ describe('Testeing the App component', () => {
     expect(headingFavPoke).toBeInTheDocument();
   });
 
-  it('tests the 404 page, it has to appear when redirected to a non existing route', () => {
+  it('tests the 404 page, it appears when redirected to a non existing route', () => {
     const { history } = renderWithRouter(<App />);
     history.push('/sumiu');
-    const headingNotFound = screen.getByRole('heading', {  name: /page requested not found/i });
+    const headingNotFound = screen
+    .getByRole('heading', { name: /page requested not found/i });
     expect(headingNotFound).toBeDefined();
   });
 });

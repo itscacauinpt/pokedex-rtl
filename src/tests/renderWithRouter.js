@@ -16,13 +16,13 @@ function renderWithRouter(component) {
   const returnedRender = render(
     <Router history={ customHist }>
       {component}
-    </Router>
+    </Router>,
   );
 
   return {
     history: customHist,
-    ...returnedRender,// retornando tudo, fundindo com o que eu já tenho no history
+    ...returnedRender, // retornando tudo, fundindo com o que eu já tenho no history
   };
-};
+}
 
-export default renderWithRouter
+export default renderWithRouter;
