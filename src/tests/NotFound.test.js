@@ -17,5 +17,6 @@ describe('Test the NotFound component', () => {
     const imagePikachu = screen
       .getByAltText(/pikachu crying because the page requested was not found/i);
     expect(imagePikachu).toBeInTheDocument();
+    expect(imagePikachu.src).toContain('https://media.giphy.com/media/kNSeTs31XBZ3G/giphy.gif');
   });
 });
