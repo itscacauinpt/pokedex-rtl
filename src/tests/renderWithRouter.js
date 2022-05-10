@@ -1,3 +1,4 @@
+import React from 'react';
 import { render } from '@testing-library/react';
 import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
@@ -6,7 +7,7 @@ import { createMemoryHistory } from 'history';
 // make sure to returns the render response as the history
 // so we can use on the tests! :>
 // using history we can navigate through the site
-// when we use history, in this case, we have to use Router 
+// when we use history, in this case, we have to use Router
 
 function renderWithRouter(component) {
   const customHist = createMemoryHistory();
@@ -20,8 +21,8 @@ function renderWithRouter(component) {
 
   return {
     history: customHist,
-    ...returnedRender, // retornando tudo, fundindo com o que eu já tenho no history
-  }
-}
+    ...returnedRender,// retornando tudo, fundindo com o que eu já tenho no history
+  };
+};
 
 export default renderWithRouter
