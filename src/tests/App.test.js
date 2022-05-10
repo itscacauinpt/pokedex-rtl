@@ -46,7 +46,7 @@ describe('Testeing the App component', () => {
     const { history } = renderWithRouter(<App />);
     history.push('/sumiu');
     const headingNotFound = screen
-    .getByRole('heading', { name: /page requested not found/i });
+      .getByRole('heading', { name: /page requested not found/i });
     expect(headingNotFound).toBeDefined();
   });
 });
