@@ -63,18 +63,15 @@ describe('Testing the Pokedex component', () => {
     );
 
     const filtersButton = screen.getAllByTestId('pokemon-type-button');
-    // const abutton = filtersButton[0].textContent;
-    // const bbutton = filtersButton[1].textContent;
-    // expect(abutton).not.toEqual(bbutton);
-    // expect(filtersButton[0]).toBeInTheDocument();
-    // console.log(filtersButton[0].textContent);
+    filtersButton.forEach((element) => {
+      expect(element).toBeInTheDocument();
+    });
 
-    const filtersButtonNames = filtersButton.map((ele) => ele.textContent);
-    console.log(filtersButtonNames);
+    const buttonNames = filtersButton.map((ele) => ele.textContent);
+    const correctName = buttonNames
+      .every((ele) => filtersName.some((name) => ele === name));
 
-    for (let i = 0; i <= filtersName.length; i + 1) {
-      expect(filtersButtonNames[i]).toEqual(filtersName[i]);
-    }
+    expect(correctName).toBe(true);
   });
 
   it('tests if the cleanFilter works perfectly', () => {
@@ -83,7 +80,16 @@ describe('Testing the Pokedex component', () => {
         <App />
       </MemoryRouter>,
     );
-    const filterAll = screen.getByRole('button', { name: /all/i });
-    expect(filterAll).toBeInTheDocument();
+    const cleanFilter = screen.getByRole('button', { name: /all/i });
+    expect(cleanFilter).toBeInTheDocument();
+
+    const nextPokemon = screen.getByRole('button', { name: /próximo pokémon/i });
+
+    const allButtons = screen.getAllByRole('button');
+    allButtons.forEach((ele) => {
+      userEvent.click(ele);
+      userEvent.click(nextPokemon);
+      userEvent.click(cleanFilter);
+    });
   });
 });
