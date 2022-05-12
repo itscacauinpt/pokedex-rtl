@@ -80,6 +80,7 @@ describe('Testing the Pokedex component', () => {
         <App />
       </MemoryRouter>,
     );
+
     const cleanFilter = screen.getByRole('button', { name: /all/i });
     expect(cleanFilter).toBeInTheDocument();
 
