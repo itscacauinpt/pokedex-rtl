@@ -1,16 +1,22 @@
 # 🚧 README em construção 🚧
 
-<!-- Olá, Tryber!
+# :zap: RTL Pokedex Simulator :zap:
+> Status: finished - April/2022 :heavy_check_mark:
+>
+> Access page ...
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+##### _..._
 
-É essencial que você preencha esse documento por conta própria, ok?
+(details)
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+#### :zap: Requirements
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+- [ ] ...
+- [ ] ...
 
--->
+#### :zap: Layout Pages
+<img align="center" width="980px" src=""/>
+
+<div align="center">
+  :zap: Copyright :copyright: <a href="">beTrybe<a/>  2023 - RTL Pokedex Simulator :zap:
+</div>
