@@ -1,7 +1,5 @@
 # :zap: React Testing Library - Pokedex Simulator :zap:
 > Status: finished - April/2022 :heavy_check_mark:
->
-> Access page ...
 
 ##### _testing a frontend application | app developed by Trybe_
 
