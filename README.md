@@ -5,7 +5,7 @@
 
 ##### _testing a frontend application | app developed by Trybe_
 
-The goal of this project was to write tests for the application, implementing Unit Tests using <a href="https://jestjs.io"> Jest</a> and the React Testing Library (<a href="https://testing-library.com/">RTL</a>).
+The goal of this project was to write tests for the application, implementing Unit Tests using <a href="https://jestjs.io"> Jest</a>:zap: and the React Testing Library (<a href="https://testing-library.com/">RTL</a> :octopus:).
 
 This application simulates a 'Pokedex', allowing users to view and favorite a variety of Pokemon organized by their types, with additional details available for each selection.
 
@@ -28,6 +28,10 @@ This application simulates a 'Pokedex', allowing users to view and favorite a va
 _Verify all dependencies and libraries to ensure smooth functioning of the application_
 
 > You'll need to have installed <a href="https://nodejs.org/en/download/">Node.js</a> :warning: locally (in your machine) to run the application.
+
+- Run the following commands in you terminal
+- Before anything, you'll need to clone this repository: <code>git clone git@github.com:tryber/sd-020-b-project-react-testing-library.git</code>
+- 
 
 #### :zap: Layout Pages
 <img align="center" width="980px" src=""/>
