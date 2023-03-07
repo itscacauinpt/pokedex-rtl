@@ -6,6 +6,7 @@
 ##### _testing a frontend application | app developed by Trybe_
 
 The goal of this project was to write tests for the application, implementing Unit Tests using <a href="https://jestjs.io"> Jest</a>:zap: and the React Testing Library (<a href="https://testing-library.com/">RTL</a> :octopus:).
+You can find the test inside this <a href="https://github.com/itscacauinpt/pokedex-rtl/tree/main/src/tests">dir</a>, following this path <strong>/src/tests</strong>.
 
 This application simulates a 'Pokedex', allowing users to view and favorite a variety of Pokemon organized by their types, with additional details available for each selection.
 
