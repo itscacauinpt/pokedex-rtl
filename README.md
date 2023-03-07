@@ -39,10 +39,10 @@ _Verify all dependencies and libraries to ensure smooth functioning of the appli
 
 #### :zap: Layout Pages
 <div align="center">
-  <img width="420px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex.png"/>
-  <img width="420px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-mainpage.png"/>
-  <img width="420px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-details.png"/>
-  <img width="420px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-fav.png"/>
+  <img width="360px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex.png"/>
+  <img width="360px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-mainpage.png"/>
+  <img width="360px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-details.png"/>
+  <img width="360px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-fav.png"/>
 </div>
 
 <br/>
