@@ -27,14 +27,25 @@ This application simulates a 'Pokedex', allowing users to view and favorite a va
 
 _Verify all dependencies and libraries to ensure smooth functioning of the application_
 
-> You'll need to have installed <a href="https://nodejs.org/en/download/">Node.js</a> :warning: locally (in your machine) to run the application.
+  > You'll need to have installed <a href="https://nodejs.org/en/download/">Node.js</a> :warning: locally (in your machine) to run the application.
 
 - Run the following commands in you terminal
-- Before anything, you'll need to clone this repository: <code>git clone git@github.com:tryber/sd-020-b-project-react-testing-library.git</code>
-- 
+- Before anything, you'll need to clone this repository: <code>git clone git@github.com:itscacauinpt/pokedex-rtl.git</code>
+- Enter the project dir: <code>cd pokedex-rtl</code>
+- Install the dependencies: <code>npm install</code>
+
+- To run the app: <code>npm start</code>
+- To run the tests: <code>npm test src/tests/<i>test-archive</i></code>
 
 #### :zap: Layout Pages
-<img align="center" width="980px" src=""/>
+<div align="center">
+  <img width="460px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex.png"/>
+  <img width="460px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-mainpage.png"/>
+  <img width="460px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-details.png"/>
+  <img width="460px" src="https://github.com/itscacauinpt/pokedex-rtl/blob/main/assets/pokedex-fav.png"/>
+</div>
+
+<br/>
 
 <div align="center">
   :zap: Copyright :copyright: <a href="">beTrybe<a/>  2023 - RTL Pokedex Simulator :zap:
